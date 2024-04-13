@@ -11,7 +11,7 @@ public class SILab1Main {
         List<String> list = new ArrayList<>();
 
         for (int i = 0; i < n; i++) {
-            list.add(sc.next());
+            list.add(sc.next()); 
         }
     }
 }
