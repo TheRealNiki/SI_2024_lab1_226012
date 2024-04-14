@@ -34,17 +34,34 @@ git cheackout -b bug1 - создаваме нова гранка bug1 и се п
 19. git checkout master
 
 20. git merge bug1 - се спојува гранката bug1 кон master
+Merge made by the 'ort' strategy.
+ doc2.java | 21 +++++++--------------
+ 1 file changed, 7 insertions(+), 14 deletions(-)
 
 21. git push --all origin
 
 22. git chekout bug2
 
 23. git rebase master
+Auto-merging doc2.java
+CONFLICT (content): Merge conflict in doc2.java
+error: could not apply 8aceedd... First push commit
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 8aceedd... First push commit
 
 24. git checkout master
 
 25.git merge bug2
+Already up to date.
 
 26. git push --all
 
-27.
+28. git log > logs.txt
+git add .
+git commit -m "Final commit"
+
+29.git push --all
+
