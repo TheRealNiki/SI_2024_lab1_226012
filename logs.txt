@@ -1,0 +1,55 @@
+commit f8b2106b37560e5d9216828a568548480ec768f6
+Merge: e47eea5 8aceedd
+Author: TheRealNiki <golubovskinikola@gmail.com>
+Date:   Sun Apr 14 15:56:15 2024 +0200
+
+    Fix conflict in doc2 again
+
+commit e47eea585228ff4a5f3ba790e984868a2d977904
+Merge: 7074baa f04725e
+Author: TheRealNiki <golubovskinikola@gmail.com>
+Date:   Sun Apr 14 15:44:06 2024 +0200
+
+    Merge branch 'bug1'
+
+commit 7074baa2474aeabf6b3f69cd121af4ab1f469d13
+Author: TheRealNiki <golubovskinikola@gmail.com>
+Date:   Sun Apr 14 00:50:34 2024 +0200
+
+    Test changed privacy
+
+commit 8aceedd5d4c25009b25c6679e3f897587d9dda62
+Author: TheRealNiki <golubovskinikola@gmail.com>
+Date:   Sun Apr 14 00:37:27 2024 +0200
+
+    First push commit
+
+commit 4ffd6574d09dcbd177b9843a95170c3dd621c54b
+Author: TheRealNiki <golubovskinikola@gmail.com>
+Date:   Sat Apr 13 23:09:08 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit ee47e2cdb3ed865581fe3f30e77a96a918af62da
+Author: TheRealNiki <golubovskinikola@gmail.com>
+Date:   Sat Apr 13 22:57:47 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit f04725e578a7b0b1298c23aa0873fc4ca251f9cc
+Author: TheRealNiki <golubovskinikola@gmail.com>
+Date:   Sat Apr 13 22:55:34 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 65ec3ea427b2169fe489513372b7c73df58cf335
+Author: TheRealNiki <golubovskinikola@gmail.com>
+Date:   Sat Apr 13 22:37:03 2024 +0200
+
+    Add starter code
+
+commit c75399e0631938a3f917b53588801299450c5eb5
+Author: TheRealNiki <golubovskinikola@gmail.com>
+Date:   Sat Apr 13 22:12:46 2024 +0200
+
+    Initial commit

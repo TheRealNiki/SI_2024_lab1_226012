@@ -1,0 +1,50 @@
+4. git init - обичен директориум претворам во git директориум
+
+5. git remote add origin <URL на репозиториумот> - да се поврзе локалниот репозиториум со одалечениот репозиториум
+
+6.echo "# Име Презиме, Број на Индекс" > README.md
+git add README.md
+git commit -m "Initial commit"
+
+7.git add file1 file2 file3 - ги додаваме фајловите во локалниот репозиториум
+
+8. git pull --all -Ги синхронизираме сите гранки со оддалечениот репозиториум
+
+9. git checkout master - се префрлуваме на master
+git cheackout -b bug1 - создаваме нова гранка bug1 и се префрламе на истата
+
+10. git checkout bug1
+
+11. git commit -m "Fix wrong condition in filterOddLengthStrings"
+
+12. git checkout bug2
+
+13. git commit -m "Fix wrong condition in makeBigStringFrom"
+
+14. git checkout bug1
+
+15. git commit -m "Call method filterOddLengthStrings in main class"
+
+16. git checkout bug2
+
+17. git commit -m "Call method makeBigStringFrom in main class"
+
+18. git push --all
+
+19. git checkout master
+
+20. git merge bug1 - се спојува гранката bug1 кон master
+
+21. git push --all origin
+
+22. git chekout bug2
+
+23. git rebase master
+
+24. git checkout master
+
+25.git merge bug2
+
+26. git push --all
+
+27.
